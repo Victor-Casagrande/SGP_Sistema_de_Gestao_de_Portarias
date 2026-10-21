@@ -1,0 +1,104 @@
+# 10 – Design system
+
+O design system está na página **Design System** do Figma. As telas usam só os componentes, as variáveis e os estilos descritos aqui. A identidade segue o ambiente do IFC: verde institucional, logotipo oficial e linguagem dos documentos do serviço público.
+
+![Fundamentos do design system](imagens/10-design-system-fundamentos.png)
+
+## Recursos do Figma usados
+
+| Recurso | Quantidade | Onde ver no Figma |
+|---|---|---|
+| Variáveis (coleção “SGP Tokens”) | 28 | Painel **Local variables** |
+| Estilos de cor | 16 | **Assets › Estilos de cor**, ligados às variáveis |
+| Estilos de texto | 11 | **Assets › Estilos de texto** |
+| Estilos de efeito (sombras) | 4 | **Assets › Estilos de efeito** |
+| Estilos de grade (guias de layout) | 3 | **Assets › Guias de layout** |
+| Componentes e conjuntos de variantes | 10 + 34 ícones | Página **Design System** |
+| Sobreposições | 49 (modais, menus, listas de seleção e avisos) | Página **Telas (protótipo)** |
+| Variantes interativas | Botão, Card, Segmento, Status | Hover e alternância ao clicar |
+
+## Paleta de cores
+
+| Estilo | Hex | Uso |
+|---|---|---|
+| Marca/500 – Verde institucional | `#32A041` | Ícones, gráficos e detalhes (verde do IFC) |
+| Marca/600 – Ação | `#267D33` | Botões e links (contraste 5,2:1 com branco, WCAG AA) |
+| Marca/700 | `#1E6B2B` | Hover dos botões e faixas de destaque |
+| Marca/50 | `#E8F5EA` | Fundo do item ativo do menu, selos “Vigente” |
+| Perigo/600 | `#C62828` | Erros, bloqueios, “Revogada”, “Urgente” |
+| Perigo/50 | `#FDECEC` | Fundo de alertas críticos |
+| Aviso/600 | `#B45309` | “Perto do limite”, “Pendente”, “Aguardando assinatura” |
+| Aviso/50 | `#FFF4E5` | Fundo de avisos |
+| Fundo/App | `#F8FAFC` | Fundo das telas internas |
+| Fundo/Superfície | `#FFFFFF` | Cards, tabelas e formulários |
+| Fundo/Sutil | `#F1F5F9` | Cabeçalhos de tabela, segmentos |
+| Borda/Padrão | `#E2E8F0` | Bordas e divisórias |
+| Texto/Principal | `#0F172A` | Títulos e texto |
+| Texto/Secundário | `#475569` | Descrições |
+| Texto/Suave | `#64748B` | Legendas e placeholders |
+| Texto/Sobre a marca | `#FFFFFF` | Texto sobre o verde |
+
+`Marca/500` (#32A041) é a cor institucional, mas com texto branco tem contraste de só 3,4:1. Por isso, botões e links usam `Marca/600`.
+
+## Tipografia (Inter)
+
+| Estilo | Tamanho / altura de linha | Peso | Uso |
+|---|---|---|---|
+| Display | 56/64 | Bold | Título da landing |
+| Título 1 | 40/48 | Bold | Títulos de seção da landing |
+| Título 2 | 32/40 | Bold | Título das telas |
+| Título 3 | 20/28 | Semi Bold | Títulos de cards e etapas |
+| Corpo G | 18/28 | Regular | Textos de apoio |
+| Corpo | 16/24 | Regular | Texto padrão e campos |
+| Corpo forte | 16/24 | Semi Bold | Botões e ênfases |
+| Pequeno | 14/20 | Regular | Tabelas e descrições |
+| Rótulo | 14/20 | Medium | Rótulos de campos |
+| Legenda | 12/16 | Medium | Selos e metadados |
+| Sobretítulo | 13/16 | Semi Bold | Rótulos em caixa alta |
+
+## Efeitos
+
+| Estilo | Uso |
+|---|---|
+| Sombra/Card | Cards em hover e segmento selecionado |
+| Sombra/Elevada | Prévia do painel na landing e elementos em destaque |
+| Sombra/Menu | Menus suspensos (usuário, ações) |
+| Sombra/Sobreposição | Modais |
+
+## Guias de layout
+
+| Estilo | Configuração |
+|---|---|
+| Grade/Desktop – 12 colunas | Landing e telas públicas, 1440 px: 12 colunas, margem 80, calha 24 |
+| Grade/App – conteúdo 12 colunas | Área de conteúdo ao lado do menu lateral: 12 colunas, margem 32, calha 24 |
+| Grade/Base 8 px | Grade de 8 pontos para espaçamentos |
+
+Os guias vêm desligados nas telas; para ver, use **Ctrl+G** (ou **Shift+G** no Mac).
+
+Espaçamentos em múltiplos de 8 px; raios de 6, 12 e 16 px e pílula.
+
+## Componentes
+
+| Componente | Variantes e propriedades | Uso |
+|---|---|---|
+| **Botão** | 16 variantes (Tipo: Primário, Secundário, Fantasma, Perigo × Estado: Padrão, Hover, Desabilitado, Carregando); propriedades Rótulo, Mostrar ícone, Ícone | Todas as ações; hover interativo |
+| **Status** | 17 variantes: Solicitada, Em análise, Devolvida, Em elaboração, Aguardando assinatura, Vigente, Alterada, Retificada, Vencida, Revogada, Encerrada, Pendente, Urgente, Dentro do limite, Perto do limite, No limite, Acima do limite | Selos de estado da portaria (RF06) e da carga horária (RN04) |
+| **Campo de texto** | 4 variantes (Padrão, Foco, Erro, Desabilitado); propriedades Rótulo, Valor, Ajuda, Mostrar ajuda, Mostrar ícone, Ícone | Formulários |
+| **Segmento** | 2 variantes (Padrão, Selecionado); propriedade Texto; alterna ao clicar | Abas e escolhas exclusivas (prazo, DOU, setor) |
+| **Seletor de perfil** | — | Troca de perfil no menu do usuário |
+| **Card de funcionalidade** | 2 variantes (Padrão, Hover); propriedades Título, Descrição, Ícone, Mostrar link | Landing |
+| **Item de menu** | 2 variantes (Padrão, Ativo); propriedades Texto, Ícone | Menu lateral |
+| **Menu lateral** | Itens de menu + Sair | Todas as telas internas |
+| **Barra superior** | Propriedades Nome, Perfil, Iniciais | Todas as telas internas |
+| **Cabeçalho da landing** | — | Landing e consulta pública |
+| **Ícones** | 34 componentes `Icon/…` (documento, pessoas, sincronizar, busca, sino, alerta, check, cadeado, escudo, e-mail…) | Usados por instância e trocados pela propriedade Ícone |
+
+## Imagens e ilustrações
+
+- **Logotipo oficial do IFC** no cabeçalho da landing, no login e no rodapé.
+- **Ilustrações** em traço na seção “Por que confiar” da landing (login, calendário, histórico e busca).
+- **Diagrama do ciclo de vida** da portaria como tela própria do protótipo.
+
+## Pendência
+
+Estilos de **animação** não podem ser criados pela API do Figma usada na construção do arquivo. As transições do protótipo usam as configurações de cada interação (dissolver, deslizar, rolagem animada). Criar estilos de animação manualmente é o item US22 do backlog.
