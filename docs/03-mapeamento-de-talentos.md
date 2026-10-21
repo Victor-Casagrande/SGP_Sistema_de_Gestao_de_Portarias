@@ -26,19 +26,19 @@ Coluna **Interesse**: marque ✔ se a pessoa quer desenvolver essa competência 
 
 | Competência | Victor Casagrande | Lucas Duarte Lopes | Willighan Tinelli de Souza |
 |---|:-:|:-:|:-:|
-| C1 Levantamento de requisitos | ? | 3 | ? |
-| C2 Processos e regras de negócio | ? | 2 | ? |
-| C3 Design de interface | ? | 3 | ? |
-| C4 UX e usabilidade | ? | 2 | ? |
-| C5 Figma – design system | ? | 4 | ? |
-| C6 Figma – prototipação | ? | 4 | ? |
-| C7 Documentação técnica | ? | 2 | ? |
-| C8 Git e GitHub | ? | 2 | ? |
-| C9 Scrum | ? | 4 | ? |
-| C10 Domínio (IFC, SIPAC, LGPD) | ? | 3 | ? |
-| C11 Acessibilidade | ? | 3 | ? |
-| C12 Comunicação | ? | 4 | ? |
-| **Interesse em desenvolver** | ? | 2 | ? |
+| C1 Levantamento de requisitos | 3 | 3 | ? |
+| C2 Processos e regras de negócio | 3 | 2 | ? |
+| C3 Design de interface | 2 | 3 | ? |
+| C4 UX e usabilidade | 2 | 2 | ? |
+| C5 Figma – design system | 1 | 4 | ? |
+| C6 Figma – prototipação | 3 | 4 | ? |
+| C7 Documentação técnica | 2 | 2 | ? |
+| C8 Git e GitHub | 2 | 2 | ? |
+| C9 Scrum | 3 | 4 | ? |
+| C10 Domínio (IFC, SIPAC, LGPD) | 2 | 3 | ? |
+| C11 Acessibilidade | 3 | 3 | ? |
+| C12 Comunicação | 3 | 4 | ? |
+| **Interesse em desenvolver** | 2 | 2 | ? |
 
 ## 3. Papéis e alocação proposta
 
