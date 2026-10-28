@@ -1,6 +1,5 @@
 # 04 – Critérios de aceitação
 
-<<<<<<< HEAD
 Este documento tem três níveis de critérios:
 
 1. **Critérios de aceitação do projeto:** condições para o projeto ser aceito como um todo, os mesmos do [Termo de Abertura](01-plano-de-projeto.md).
@@ -25,9 +24,6 @@ Os requisitos e as regras citados estão em [05 – Requisitos](05-requisitos.md
 | CP-10 | O design segue a identidade do IFC (logotipo, verde institucional, linguagem do serviço público) | Revisão visual da landing page e das telas | Product Owner |
 
 ## Critérios de aceitação do produto
-=======
-Os critérios estão escritos no formato **Dado / Quando / Então**. Cada cenário pode ser verificado no protótipo do Figma; o campo **Tela** indica onde. Os requisitos e as regras citados estão em [05 – Requisitos](05-requisitos.md) e [06 – Regras de negócio](06-regras-de-negocio.md).
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ## Interfaces obrigatórias
 
@@ -37,17 +33,10 @@ O usuário é a **matrícula SIAPE** e a senha é a mesma da rede institucional 
 
 | # | Cenário | Dado | Quando | Então | Tela |
 |---|---|---|---|---|---|
-<<<<<<< HEAD
 | CA-L1 | Login válido | um servidor com matrícula e senha corretas | clica em **Entrar** | vê a Home do próprio perfil, com nome e cargo na barra superior (o perfil Servidor passa antes pelo estado “Entrando…”) | Login → Login – Carregando → Painel – Início |
 | CA-L2 | Credenciais inválidas | matrícula ou senha incorretas | clica em **Entrar** | vê a mensagem “Matrícula ou senha incorretos. Confira os dados e tente novamente.”, o campo de senha fica em vermelho e há a dica sobre maiúsculas e minúsculas | Login – Erro |
 | CA-L3 | Mostrar senha | a senha digitada | clica no ícone de olho | a senha fica visível | Login – Padrão |
 | CA-L4 | Perfil vem do cadastro | qualquer usuário | abre a tela de login do sistema real | não há escolha de perfil: o perfil vem do cadastro (RN05). No protótipo, as abas da faixa “Ambiente de desenvolvimento” só simulam a pessoa de teste e levam ao painel dela | Login – Seletor de Perfil; Login — Padrão — (perfil) |
-=======
-| CA-L1 | Login válido | um servidor com matrícula e senha corretas | clica em **Entrar** | vê o estado “Entrando…” e em seguida a Home com o próprio nome e perfil | Login – Padrão → Login – Carregando → Painel – Início |
-| CA-L2 | Credenciais inválidas | matrícula ou senha incorretas | clica em **Entrar** | vê a mensagem “Matrícula ou senha incorretos. Confira os dados e tente novamente.”, o campo de senha fica em vermelho e há a dica sobre maiúsculas e minúsculas | Login – Erro |
-| CA-L3 | Mostrar senha | a senha digitada | clica no ícone de olho | a senha fica visível | Login – Padrão |
-| CA-L4 | Sem seletor de perfil | qualquer usuário | abre a tela de login | não há escolha de perfil: o perfil vem do cadastro (RN05) | Login – Padrão |
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | CA-L5 | Acesso à recuperação | a tela de login | clica em **Esqueci minha senha** | vai para a recuperação de senha | Recuperar senha – 1 |
 | CA-L6 | Ajuda | a tela de login | lê o rodapé do formulário | encontra a orientação “Problemas para entrar? Fale com a DTIC do campus.” | Login – Padrão |
 
@@ -67,11 +56,7 @@ O usuário é a **matrícula SIAPE** e a senha é a mesma da rede institucional 
 | # | Cenário | Dado | Quando | Então | Tela |
 |---|---|---|---|---|---|
 | CA-H1 | Menu lateral | um usuário autenticado | abre qualquer tela interna | vê o menu lateral com o item atual destacado e o botão **Sair** | Painel – Início |
-<<<<<<< HEAD
 | CA-H2 | Menu conforme o perfil | um usuário de cada perfil | abre a Home | todos veem Início, Portarias, Carga horária, Alertas e Extrato; **Solicitações** aparece para quem pede (Docente) e para quem analisa (Emissor, Gestão); **Nova portaria** e **Boletim de Serviço** só para o Emissor; **Relatórios** só para Chefia (do setor) e Gestão (RN05) | Painel – Início de cada perfil |
-=======
-| CA-H2 | Menu conforme o perfil | uma servidora que também é solicitante | abre a Home | o menu mostra Início, Portarias, Solicitações, Carga horária, Alertas e Extrato; **Nova portaria** aparece só para Emissores e **Relatórios** só para Gestão e Chefias (RN05) | Painel – Início; Relatórios – gestão |
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | CA-H3 | Resumo pessoal | a servidora Maria Silva, docente | abre a Home | vê portarias vigentes, horas em portarias (8 h de 10 h), alertas e ciências pendentes | Painel – Início |
 | CA-H4 | Pendência acionável | uma ciência pendente | clica em **Dar ciência na Portaria 98/2026** | abre a tela de ciência da portaria | Painel – Início → Ciência |
 | CA-H5 | Barra superior | qualquer tela interna | olha o topo | vê a busca, o sino de notificações com indicador e o menu do usuário com nome e perfil | Painel – Início |
@@ -87,11 +72,7 @@ O usuário é a **matrícula SIAPE** e a senha é a mesma da rede institucional 
 | CA-04 | RF02 | um pedido completo | o emissor clica em **Aprovar e elaborar** | a nova portaria abre na etapa 1, com a origem (Solicitação 34/2026) indicada |
 | CA-05 | RF03 | um emissor elaborando a portaria | avança pelas etapas | passa pelas 6 etapas na ordem (dados gerais, epígrafe e ementa, preâmbulo, corpo, membros, revisão) e a prévia do documento é atualizada a cada etapa |
 | CA-06 | RF03, RN02 | a etapa 1 | marca “Exige publicação no DOU? Não” | o início da vigência pode ser o Boletim de Serviço ou a data indicada no texto |
-<<<<<<< HEAD
 | CA-07 | RF04, RN04 | um docente com 9 h em portarias | o emissor tenta incluí-lo com mais 2 h | a linha fica em vermelho, aparece o alerta crítico com o link **Pedir exceção ao DEP, DAP ou DG** e o botão **Continuar** fica desabilitado até a troca do membro, a redução das horas ou a aprovação da exceção |
-=======
-| CA-07 | RF04, RN04 | um docente com 9 h em portarias | o emissor tenta incluí-lo com mais 2 h | a linha fica em vermelho, aparece o alerta crítico e o botão **Continuar** fica desabilitado até a troca do membro ou a redução das horas |
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | CA-08 | RF04, RN07 | um membro externo (aluno) | o emissor o adiciona por **Membro externo** | ele entra sem SIAPE e sem carga horária (“Não se aplica”) |
 | CA-09 | RF05 | a etapa de revisão completa | o emissor clica em **Enviar para assinatura no SIPAC** | a portaria passa a “Aguardando assinatura”; nenhum dado é redigitado no SIPAC |
 | CA-10 | RF05, RNF02 | o SIPAC fora do ar | o emissor tenta enviar | o envio fica suspenso e o sistema avisa; não há fila offline |
@@ -101,11 +82,7 @@ O usuário é a **matrícula SIAPE** e a senha é a mesma da rede institucional 
 | CA-14 | RF08 | um erro de digitação em nome ou SIAPE | o emissor retifica | só o texto muda, com justificativa obrigatória; o prazo e o conteúdo permanecem |
 | CA-15 | RF08, RN03 | uma portaria a revogar | o emissor revoga | é criada uma nova portaria com cláusula revogatória vinculada; a antiga passa a “Revogada” e continua consultável |
 | CA-16 | RF09 | um servidor em várias portarias | o sistema soma as horas | o total considera só as portarias vigentes e é comparado à jornada e, para docentes, ao limite de 10 h |
-<<<<<<< HEAD
 | CA-17 | RF10, RN08 | uma portaria com prazo | faltam de 7 a 5 dias para o vencimento | presidente, chefia e Gabinete recebem o aviso, que continua até a prorrogação; o detalhe da portaria mostra a faixa de alerta |
-=======
-| CA-17 | RF10 | uma portaria perto do vencimento | faltam poucos dias para o fim | presidente, chefia e Gabinete recebem o aviso, e o detalhe da portaria mostra a faixa de alerta |
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | CA-18 | RF10 | uma portaria assinada | o membro clica em **Estou ciente do teor** | a ciência fica registrada com data e hora e aparece no detalhe da portaria |
 | CA-19 | RF11, RN06 | um visitante sem login | busca “NDE” na consulta pública | vê número, objeto, membros, vigência e situação, sem CPF ou outros dados pessoais |
 | CA-20 | RF12 | uma servidora autenticada | abre o extrato | vê todas as suas portarias com período, função, horas e status, e pode exportar em PDF |
@@ -113,23 +90,16 @@ O usuário é a **matrícula SIAPE** e a senha é a mesma da rede institucional 
 | CA-22 | RF13, RN05 | uma chefia de setor | abre os relatórios | vê apenas os servidores do próprio setor |
 | CA-23 | RF14 | um emissor | escolhe o mês no Boletim de Serviço | vê os atos do mês (portarias, alterações, retificações, revogações) e pode gerar o PDF |
 | CA-24 | RF15, RN09 | uma portaria com alterações | é aberto o histórico de versões | aparecem todas as versões com descrição, justificativa, autor, data e número do documento; nada é apagado |
-<<<<<<< HEAD
 | CA-25 | RF16, RN04 | o alerta de limite na etapa 5 | o emissor clica em **Pedir exceção**, informa a justificativa e envia ao DEP, DAP ou DG | o pedido é enviado (aviso “Pedido de exceção enviado para aprovação”) e a portaria aguarda a decisão |
 | CA-26 | RF16, RN04 | um pedido de exceção pendente | um usuário DEP, DAP ou DG abre o pedido pelo aviso nos relatórios e clica em **Aprovar exceção** ou **Recusar** | a decisão é registrada com nome, data e hora no histórico da portaria; outros perfis não aprovam exceções |
 | CA-27 | RF07, RN03, RN08 | a Portaria 112/2026 perto do vencimento | o emissor escolhe **Ações → Prorrogar**, define o novo prazo e envia ao SIPAC | é gerada a alteração 112-B/2026 com a nova vigência; o objeto não muda e a versão anterior continua no histórico |
-=======
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ## Requisitos não funcionais
 
 | # | Req. | Critério verificável |
 |---|---|---|
 | CA-N1 | RNF01 | Nome, nome social, SIAPE, CPF, vínculo e lotação nunca são digitados no SGP; vêm do cadastro central. |
-<<<<<<< HEAD
 | CA-N2 | RNF03 | A busca de membros mostra resultados em até 1 segundo em 95% das buscas, enquanto o usuário digita, sem bloquear os demais campos. |
-=======
-| CA-N2 | RNF03 | A busca de membros mostra resultados enquanto o usuário digita, sem bloquear os demais campos. |
->>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | CA-N3 | RNF04 | Toda ação registra autor, data e hora e o que mudou; o IP não aparece em nenhuma tela. |
 | CA-N4 | RNF05 | O CPF não aparece na consulta pública nem nos relatórios. |
 | CA-N5 | RNF06 | Não existe botão de exportação para planilha; as exportações são em PDF. |
