@@ -4,6 +4,7 @@ O protótipo está na página **Telas (protótipo)** do Figma. Todas as telas fi
 
 **Link do protótipo:** https://www.figma.com/proto/ezXFmUokd7Vfb36NjGNrG0?node-id=2010-2&starting-point-node-id=2010%3A2
 
+<<<<<<< HEAD
 ## Evolução do protótipo
 
 O protótipo foi construído de forma **evolutiva**: cada versão aproveitou a anterior e incorporou o que a equipe aprendeu com a entrevista e com as revisões. Os arquivos antigos foram preservados como registro do processo.
@@ -23,19 +24,29 @@ O protótipo foi construído de forma **evolutiva**: cada versão aproveitou a a
 
 **O que mudou da média para a alta fidelidade:** os depoimentos com nomes fictícios deram lugar à comparação “Como era × Como fica”; o seletor de perfil do login virou uma simulação marcada como “Ambiente de desenvolvimento” (no sistema real o perfil vem do cadastro); as telas passaram a usar componentes e estilos; e as regras de negócio foram conferidas com a gravação da entrevista.
 
+=======
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 ## Números
 
 | Item | Quantidade |
 |---|---|
+<<<<<<< HEAD
 | Telas | 89, incluindo o diagrama do ciclo de vida, os logins e painéis de cada perfil e as variações de abas e opções (por exemplo, Gabinete ou CGP e tipo de prazo na nova portaria) |
 | Sobreposições (modais, menus, listas de seleção e avisos) | 60 |
 | Interações configuradas | 2.648 (931 condições por perfil e 808 gravações de variável) |
 | Fluxos iniciais (pontos de partida) | 9 |
+=======
+| Telas | 33 (incluindo o diagrama do ciclo de vida) |
+| Sobreposições (modais, menus, listas de seleção e avisos) | 49 |
+| Interações configuradas | 815 |
+| Fluxos iniciais (pontos de partida) | 10 |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | Seções na página | 12 |
 
 ## Como navegar
 
 1. Abra o link do protótipo (ou, no arquivo, clique em **Apresentar ▶** na página Telas).
+<<<<<<< HEAD
 2. No painel **Fluxos**, à esquerda, escolha o fluxo do perfil que quer testar. Os fluxos de perfil começam no login daquele perfil.
 3. Clique em qualquer área para ver em azul o que é clicável (comportamento padrão do Figma).
 4. Para voltar ao início do fluxo, pressione **R**.
@@ -64,6 +75,17 @@ O login grava a pessoa de teste em variáveis da coleção **Estado do protótip
 ### 1. Visitante: landing → login
 
 Landing → **Entrar no SGP** → Login (aba Servidor) → **Entrar** → “Entrando…” (avança sozinho em 1,2 s) → Painel do servidor TAE.
+=======
+2. No painel **Fluxos**, à esquerda, escolha o fluxo do perfil que quer testar.
+3. Clique em qualquer área para ver em azul o que é clicável (comportamento padrão do Figma).
+4. Para voltar ao início do fluxo, pressione **R**.
+
+## Fluxos
+
+### 1. Visitante: landing → login → painel
+
+Landing → **Entrar no SGP** → Login → **Entrar** → “Entrando…” (avança sozinho em 1,2 s) → Painel – Início.
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 Na landing, os 12 cards de funcionalidade abrem sobreposições navegáveis entre si (anterior, próxima, fechar). Sobre e Funcionalidades rolam a página; Consultar portarias leva à consulta pública.
 
 ### 2. Consulta pública (sem login)
@@ -72,6 +94,7 @@ Consulta pública – busca → linha **98/2026** → Consulta pública – Port
 
 ### 3. Login com erro · 3b. Recuperar senha
 
+<<<<<<< HEAD
 - **3:** Login – Erro → abas de perfil (cada uma com a sua versão de erro) → **Entrar** → painel do perfil escolhido.
 - **3b:** Recuperar senha 1 → **Enviar link** → 2 (reenviar mostra o aviso “Link reenviado”) → **Abrir link do e-mail (simulação)** → 3 → **Salvar nova senha** → 4 → **Ir para o login**.
 
@@ -109,11 +132,47 @@ Login — Diretor-Geral → Painel (Gestão):
 - **Analisar exceção** (ou o pedido no card, ou o indicador Exceções pendentes) → pedido de Diego Alves → **Aprovar exceção** ou **Recusar** → aviso com a decisão, registrada no histórico;
 - **Assinaturas** (ou a portaria no card) → Portaria 112/2026 aguardando assinatura → **Assinar via SIPAC** → detalhe da portaria;
 - **Relatórios** (menu, **Ver detalhes** ou o indicador Setores monitorados) → **Relatórios gerenciais**: todos os setores, faixa “1 pedido de exceção aguarda sua aprovação”, abas Carga horária e Histórico por objeto, **Baixar PDF**.
+=======
+- **3:** Login – Erro → **Entrar** → Carregando → Painel.
+- **3b:** Recuperar senha 1 → **Enviar link** → 2 (reenviar mostra o aviso “Link reenviado”) → **Abrir link do e-mail (simulação)** → 3 → **Salvar nova senha** → 4 → **Ir para o login**.
+
+### 4. Servidora: painel, alertas e ciência
+
+Painel – Início → **Dar ciência na Portaria 98/2026** → Ciência → **Estou ciente do teor** → Alertas.
+Pelo menu: Carga horária (exportar gera aviso), Alertas (abas por tipo; Ver portaria, Dar ciência, Solicitar prorrogação), Extrato (abas Todas/Vigentes/Encerradas/Revogadas; Exportar PDF). O avatar abre o **menu do usuário**, com troca de perfil, Meu extrato e Sair.
+
+### 5. Solicitante → Emissor → nova portaria
+
+1. **Solicitação – nova** (Maria, solicitante): tipo de pedido, setor, prazo e membros sugeridos; **Membro externo** abre o modal; o X de um membro mostra o aviso “Membro removido” → **Enviar solicitação**.
+2. **Solicitações – fila do Emissor** (João): **Aprovar e elaborar** (ou Devolver).
+3. **Nova portaria 1 a 4**: cada etapa tem Continuar e Voltar; o indicador de etapas permite voltar a uma etapa concluída; **Salvar rascunho** mostra o aviso.
+4. **Etapa 5 – Membros**: Diego Alves passaria de 9 h para 11 h; o alerta bloqueia o **Continuar**. Clicar no **X** da linha do Diego leva à versão **ajustada**, com Fábio Nunes no lugar.
+5. **Etapa 6 – Revisão**: cada bloco tem **Editar**; **Enviar para assinatura no SIPAC** volta à lista de portarias.
+
+### 6. Emissor: alterar, retificar, revogar
+
+Portaria 112/2026 – detalhe → **Ações** (menu sobreposto) →
+- **Alterar membros** → Enviar para assinatura → volta ao detalhe;
+- **Retificar** → Enviar para assinatura → volta ao detalhe;
+- **Prorrogar** → Nova portaria (mesmo objeto);
+- **Revogar** → escolher “Com portaria substituta” ou “Sem substituta” → **Continuar para a nova portaria**.
+
+Clicar fora do menu de ações o fecha.
+
+### 7. Emissor: portarias e Boletim de Serviço
+
+Portarias – busca (filtros; **Limpar filtros** mostra aviso; **Gerar relatório** gera arquivo) → linha 112/2026 → detalhe. **Boletim de Serviço** → Boletim de setembro/2026 → **Gerar boletim (PDF)**. **Nova portaria** abre a etapa 1.
+
+### 8. Gestão: relatórios · 9. Chefia: relatórios do setor
+
+Relatórios – gestão (Helena Duarte) e Relatórios – chefia de setor (Roberto Lima): abas Carga horária e Histórico por objeto; **Baixar PDF**. A chefia vê só os servidores do próprio setor.
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ## Mapa de navegação
 
 ```mermaid
 flowchart LR
+<<<<<<< HEAD
     LAND[Landing] -->|Entrar no SGP| LOGIN[Login – abas de perfil]
     LAND -->|Consultar portarias| CP[Consulta pública] --> CPD[Consulta – Portaria 98/2026]
     LAND -.->|cards| FUNC[[12 sobreposições de funcionalidade]]
@@ -149,10 +208,40 @@ flowchart LR
     HGES --> SIP[Assinatura no SIPAC] --> DET
     HGES --> REL[Relatórios gerenciais] --> HISG[Histórico por objeto]
     REL --> APR
+=======
+    LAND[Landing] -->|Entrar no SGP| LOGIN[Login]
+    LAND -->|Consultar portarias| CP[Consulta pública]
+    LAND -.->|cards| FUNC[[12 sobreposições de funcionalidade]]
+    CP --> CPD[Consulta – Portaria 98/2026]
+    LOGIN -->|Esqueci minha senha| R1[Recuperar 1] --> R2[Recuperar 2] --> R3[Recuperar 3] --> R4[Recuperar 4] --> LOGIN
+    LOGIN -->|Entrar| LOAD[Carregando] -->|1,2 s| HOME[Painel – Início]
+
+    HOME --> CARGA[Carga horária]
+    HOME --> ALERT[Alertas]
+    HOME --> EXT[Extrato]
+    HOME --> CIEN[Ciência 98/2026] --> ALERT
+    HOME --> SOL[Nova solicitação]
+
+    SOL --> FILA[Fila do Emissor] -->|Aprovar e elaborar| N1[Nova portaria 1]
+    N1 --> N2[2] --> N3[3] --> N4[4] --> N5[5 Membros – bloqueio]
+    N5 -->|remover Diego| N5A[5 ajustado] --> N6[6 Revisão] -->|Enviar ao SIPAC| BUSCA
+
+    BUSCA[Portarias – busca] --> DET[Portaria 112/2026]
+    BUSCA --> BOL[Boletim de Serviço]
+    DET -.->|Ações| MENU[[Menu de ações]]
+    MENU --> ALT[Alterar membros] --> DET
+    MENU --> RET[Retificar] --> DET
+    MENU --> REV[Revogar] --> N1
+    MENU -->|Prorrogar| N1
+
+    REL[Relatórios – gestão]
+    RELC[Relatórios – chefia]
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 ```
 
 ## Telas
 
+<<<<<<< HEAD
 ### Painéis pessoais
 
 | Carga horária (docente) | Carga horária (servidor TAE) |
@@ -166,6 +255,19 @@ flowchart LR
 ### Solicitações
 
 | Nova solicitação (docente) | Fila do Emissor |
+=======
+### Painéis do servidor
+
+| Carga horária | Alertas e ações pendentes |
+|---|---|
+| ![Carga horária](imagens/08-carga-horaria.png) | ![Alertas](imagens/08-alertas.png) |
+| **Extrato curricular** | **Ciência** |
+| ![Extrato](imagens/08-extrato.png) | ![Ciência](imagens/08-ciencia.png) |
+
+### Solicitações
+
+| Nova solicitação (solicitante) | Fila do Emissor |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 |---|---|
 | ![Nova solicitação](imagens/08-solicitacao-nova.png) | ![Fila](imagens/08-solicitacoes-fila.png) |
 
@@ -182,6 +284,7 @@ flowchart LR
 | Busca | Detalhe com histórico |
 |---|---|
 | ![Busca](imagens/08-portarias-busca.png) | ![Detalhe](imagens/08-portaria-detalhe.png) |
+<<<<<<< HEAD
 | **Alterar membros (112-A/2026)** | **Prorrogar (112-B/2026)** |
 | ![Alterar membros](imagens/08-alterar-membros.png) | ![Prorrogar](imagens/08-prorrogar.png) |
 | **Boletim de Serviço** | **Aguardando assinatura no SIPAC (Gestão)** |
@@ -202,6 +305,16 @@ O diagrama do ciclo de vida, aberto por **Ver ciclo de vida** no detalhe, está 
 | ![Relatórios da Gestão](imagens/08-relatorios-gestao.png) | ![Relatórios da Chefia](imagens/08-relatorios-chefia.png) |
 | **Consulta pública** | |
 | ![Consulta pública](imagens/08-consulta-publica.png) | |
+=======
+| **Alterar membros (112-A/2026)** | **Boletim de Serviço** |
+| ![Alterar membros](imagens/08-alterar-membros.png) | ![Boletim](imagens/08-boletim-servico.png) |
+
+### Relatórios e consulta pública
+
+| Relatórios – gestão | Consulta pública |
+|---|---|
+| ![Relatórios](imagens/08-relatorios-gestao.png) | ![Consulta pública](imagens/08-consulta-publica.png) |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ## Tipos de interação usados
 
@@ -210,16 +323,22 @@ O diagrama do ciclo de vida, aberto por **Ver ciclo de vida** no detalhe, está 
 | **Navegar para** (Navigate) | Menu lateral, botões, breadcrumbs, linhas de tabela |
 | **Abrir sobreposição** (Open overlay) | Modais de funcionalidade, menus do usuário, menu de ações, listas de seleção, modal de membro externo, avisos |
 | **Rolar até** (Scroll to) | Links Sobre e Funcionalidades da landing; cabeçalho da consulta pública |
+<<<<<<< HEAD
 | **Mudar para** (Change to, variantes interativas) | Hover em botões e cards; segmentos e abas que alternam ao clicar; submenu de Portarias |
 | **Definir variável** (Set variable) | Botões **Entrar** do login gravam a pessoa de teste; o grupo Portarias guarda se o submenu está aberto |
 | **Condicional** (If) | Início, Relatórios, Solicitações e logotipo levam cada perfil à sua tela; a troca de perfil no menu do usuário |
 | **Após atraso** (After delay) | “Entrando…” avança para o painel; avisos se fecham sozinhos |
 | **Voltar** (Back) | “← Voltar à portaria” no diagrama do ciclo de vida |
+=======
+| **Mudar para** (Change to, variantes interativas) | Hover em botões e cards; segmentos e abas que alternam ao clicar |
+| **Após atraso** (After delay) | “Entrando…” avança para a Home; avisos se fecham sozinhos |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | **Fechar sobreposição** | Botão X dos modais e clique fora dos menus |
 | **Abrir link** (Open URL) | Links do rodapé para os sites do IFC |
 
 ## Listas de seleção e menus do usuário
 
+<<<<<<< HEAD
 Todos os campos de seleção do protótipo abrem uma **lista de opções** em sobreposição (23 listas, na seção **Seleções (sobreposições)**). A opção atual aparece destacada; clicar em qualquer opção ou fora da lista fecha a sobreposição.
 
 O **menu do usuário**, aberto pelo avatar na barra superior, mostra o nome, o cargo e os perfis que a pessoa acumula, com o atual marcado, além de Meu extrato e Sair. O conteúdo vem das variáveis gravadas no login: a Maria vê Servidor e Solicitante; o Thiago, Emissor e Servidor; o Fabrício, só Servidor.
@@ -236,6 +355,21 @@ O **menu do usuário**, aberto pelo avatar na barra superior, mostra o nome, o c
 - Os campos de texto não aceitam digitação; os valores são de exemplo.
 - Nas telas pessoais compartilhadas (Alertas, Extrato, Ciência), a barra superior mostra quem entrou, mas os dados de exemplo são os da docente **Maria**.
 - No modo de edição do Figma, as telas mostram os valores padrão das variáveis (o servidor TAE Fabrício); no modo de apresentação, mostram quem entrou.
+=======
+Todos os 26 campos de seleção do protótipo abrem uma **lista de opções** em sobreposição (23 listas, na seção **Seleções (sobreposições)**). A opção atual aparece destacada; clicar em qualquer opção ou fora da lista fecha a sobreposição.
+
+Cada pessoa de exemplo tem o próprio **menu do usuário** (Maria, João, Helena e Roberto), aberto pelo avatar na barra superior, com a troca entre os perfis que ela acumula, Meu extrato e Sair.
+
+| Lista de seleção | Menu do usuário (Emissor) |
+|---|---|
+| ![Lista de seleção](imagens/08-selecao-sobreposicao.png) | ![Menu do usuário](imagens/08-menu-usuario-emissor.png) |
+
+## Limitações conhecidas
+
+- Escolher outra opção numa lista fecha a sobreposição, mas o valor exibido no campo não muda (o Figma exigiria uma variante de tela para cada combinação).
+- Os campos de texto não aceitam digitação; os valores são de exemplo.
+- As telas pessoais (Início, Carga horária, Alertas, Extrato, Ciência) usam a servidora **Maria Silva** em todos os fluxos, inclusive quando acessadas a partir das telas da Gestão ou da Chefia.
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 - Elementos **intencionalmente sem destino:** o botão “Entrando…” (estado de carregamento) e o **Continuar** desabilitado da etapa 5 com bloqueio.
 
 ## Checklist de teste de navegação (Sprint 3)
@@ -246,8 +380,17 @@ O **menu do usuário**, aberto pelo avatar na barra superior, mostra o nome, o c
 | 2. Consulta pública | | | |
 | 3. Login com erro | | | |
 | 3b. Recuperar senha | | | |
+<<<<<<< HEAD
 | 4. Docente (Maria) | | | |
 | 5. Servidor TAE (Fabrício) | | | |
 | 6. Emissor (Thiago) | | | |
 | 7. Chefia (Julia) | | | |
 | 8. Gestão (Willian) | | | |
+=======
+| 4. Servidora | | | |
+| 5. Solicitante → Emissor | | | |
+| 6. Emissor: alterar, retificar, revogar | | | |
+| 7. Emissor: portarias e Boletim | | | |
+| 8. Gestão | | | |
+| 9. Chefia | | | |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881

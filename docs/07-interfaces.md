@@ -4,15 +4,25 @@ As três interfaces exigidas no trabalho estão na página **Telas (protótipo)*
 
 | Interface | Telas no Figma | Fluxo inicial do protótipo |
 |---|---|---|
+<<<<<<< HEAD
 | a) Login com usuário e senha | Login – Seletor de Perfil (Servidor) · Login — Padrão — Docente, Emissor, Chefe de Setor e Diretor-Geral · Login – Erro (e uma versão por perfil) · Login – Carregando | 1. Visitante · 3. Login com erro · 4 a 8 (um por perfil) |
 | b) Recuperação de senha | Recuperar senha – 1. Pedir link · 2. Link enviado · 3. Nova senha · 4. Senha alterada | 3b. Recuperar senha |
 | c) Home com menu | Painel – Início (Docente) · (TAE) · (Emissor) · (Chefia) · (Gestão) | 4 a 8 |
+=======
+| a) Login com usuário e senha | Login – Padrão · Login – Erro · Login – Carregando | 1. Visitante · 3. Login com erro |
+| b) Recuperação de senha | Recuperar senha – 1. Pedir link · 2. Link enviado · 3. Nova senha · 4. Senha alterada | 3b. Recuperar senha |
+| c) Home com menu | Painel – Início | 4. Servidora: painel, alertas e ciência |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ---
 
 ## a) Login com usuário e senha
 
+<<<<<<< HEAD
 ![Login](imagens/07a-login.png)
+=======
+![Login – Padrão](imagens/07a-login.png)
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 **Objetivo:** autenticar o servidor com as credenciais institucionais. O **usuário é a matrícula SIAPE** e a **senha é a da rede institucional** (LDAP/AD da Reitoria, RNF01), sem cadastro próprio no SGP.
 
@@ -20,16 +30,24 @@ As três interfaces exigidas no trabalho estão na página **Telas (protótipo)*
 
 | Elemento | Comportamento |
 |---|---|
+<<<<<<< HEAD
 | Faixa **Ambiente de desenvolvimento** e abas de perfil | Só no protótipo: escolhe a pessoa de teste (Servidor, Docente, Emissor, Chefe de Setor, Diretor-Geral). A linha “Perfil padrão: …” mostra quem vai entrar |
 | Campo **Matrícula** | Recebe a matrícula SIAPE |
 | Campo **Senha** | Oculta por padrão; o ícone de olho mostra ou esconde a senha |
 | **Esqueci minha senha** | Abre a recuperação de senha (interface b) |
 | Botão **Entrar** | Grava o perfil escolhido nas variáveis do protótipo e abre o painel daquele perfil (o perfil Servidor passa antes pelo estado “Entrando…”) |
+=======
+| Campo **Matrícula** | Recebe a matrícula SIAPE |
+| Campo **Senha** | Oculta por padrão; o ícone de olho mostra ou esconde a senha |
+| **Esqueci minha senha** | Abre a recuperação de senha (interface b) |
+| Botão **Entrar** | Mostra o estado “Entrando…” e depois abre a Home |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | “Problemas para entrar? Fale com a DTIC do campus.” | Orientação de suporte |
 | Painel verde à direita | Resume o que o SGP oferece |
 
 **Decisões de projeto**
 
+<<<<<<< HEAD
 - **No sistema real não há escolha de perfil no login.** O perfil (Servidor, Solicitante, Emissor, Chefia, Gestão) vem do cadastro institucional, e um usuário pode acumular perfis (RN05).
 - **No protótipo, as abas simulam quem está entrando.** Sem elas, quem avalia teria de abrir um fluxo diferente para cada perfil. A faixa laranja “Ambiente de desenvolvimento” deixa claro que a escolha não faz parte do produto.
 
@@ -40,18 +58,29 @@ As três interfaces exigidas no trabalho estão na página **Telas (protótipo)*
 | Emissor | Thiago · Emissor da CGP | Fila de solicitações, Nova portaria e Boletim de Serviço |
 | Chefe de Setor | Julia · Coordenação de Ciência da Computação | Relatórios só do próprio setor |
 | Diretor-Geral | Willian · Gestão | Relatórios completos, exceções e assinaturas |
+=======
+- **Não há seletor de perfil.** O perfil (Servidor, Solicitante, Emissor, Chefia, Gestão) vem do cadastro, e um usuário pode acumular perfis (RN05).
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ### Estado de erro
 
 ![Login – Erro](imagens/07a-login-erro.png)
 
+<<<<<<< HEAD
 A mensagem geral aparece no topo do formulário; o campo de senha fica com borda vermelha e uma dica específica (“Verifique maiúsculas e minúsculas.”). O erro é sinalizado por cor, ícone e texto ao mesmo tempo, para não depender só da cor. Há uma versão da tela de erro para cada aba de perfil.
+=======
+A mensagem geral aparece no topo do formulário; o campo de senha fica com borda vermelha e uma dica específica (“Verifique maiúsculas e minúsculas.”). O erro é sinalizado por cor, ícone e texto ao mesmo tempo, para não depender só da cor.
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ### Estado carregando
 
 ![Login – Carregando](imagens/07a-login-carregando.png)
 
+<<<<<<< HEAD
 O botão mostra “Entrando…” enquanto o LDAP responde, evitando cliques repetidos. No protótipo, a tela avança sozinha para o painel.
+=======
+O botão mostra “Entrando…” enquanto o LDAP responde, evitando cliques repetidos. No protótipo, a tela avança sozinha para a Home.
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 
 ---
 
@@ -81,6 +110,7 @@ Fluxo em quatro telas. Como a senha é a do LDAP, a troca vale para todos os sis
 
 ## c) Home com menu
 
+<<<<<<< HEAD
 Cada perfil tem a própria Home. A estrutura é a mesma (menu lateral, barra superior, cabeçalho, quatro indicadores, dois cards e uma tabela), mas o conteúdo responde ao que aquele perfil precisa fazer primeiro.
 
 ![Painel – Início (Docente)](imagens/07c-home.png)
@@ -92,12 +122,25 @@ Cada perfil tem a própria Home. A estrutura é a mesma (menu lateral, barra sup
 | **Menu lateral** (componente `Menu lateral RBAC`) | Início, Portarias (Listar portarias e Nova portaria), Solicitações, Carga horária, Alertas, Extrato, Relatórios, Boletim de Serviço e Sair. Cada item aparece conforme o perfil (tabela abaixo) e o item atual fica destacado |
 | **Barra superior** (componente `Barra superior`) | Busca global (leva à busca de portarias), sino de notificações com indicador (leva aos alertas) e menu do usuário. Nome, iniciais e cargo vêm das variáveis gravadas no login |
 | **Menu do usuário** | Nome e cargo, os perfis que a pessoa acumula (o atual marcado), Meu extrato e Sair |
+=======
+![Painel – Início](imagens/07c-home.png)
+
+**Objetivo:** mostrar ao servidor, logo ao entrar, a situação das suas portarias e o que precisa de ação. O exemplo é a servidora **Maria Silva**, docente EBTT e coordenadora do PPGTI.
+
+**Estrutura**
+
+| Região | Conteúdo |
+|---|---|
+| **Menu lateral** (componente `Menu lateral`) | Início, Portarias, Solicitações, Carga horária, Alertas, Extrato e Sair. O item atual fica destacado. **Nova portaria** só aparece para Emissores e **Relatórios** só para Gestão e Chefias (RN05) |
+| **Barra superior** (componente `Barra superior`) | Busca global (leva à busca de portarias), sino de notificações com indicador (leva aos alertas) e menu do usuário: nome, SIAPE, troca entre os perfis que a pessoa acumula (ex.: Servidor e Solicitante), Meu extrato e Sair |
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 | **Cabeçalho** | Saudação, data e atalho **Ver extrato** |
 | **Indicadores** | Portarias vigentes (5) · Horas em portarias (8 h de 10 h) · Alertas (2, 1 urgente) · Ciência pendente (1) |
 | **Carga horária por portaria** | Barras por portaria e total “8 h de 10 h · 2 h livres” (RF09) |
 | **Alertas e pendências** | Portaria 112/2026 vence em 3 dias; ciência pendente da 98/2026, com botão **Dar ciência** (RF10) |
 | **Minhas portarias recentes** | Número, objeto, função, horas, vigência e status |
 
+<<<<<<< HEAD
 ### A Home de cada perfil
 
 | Servidor TAE (Fabrício) | Emissor (Thiago) |
@@ -128,6 +171,20 @@ Cada perfil tem a própria Home. A estrutura é a mesma (menu lateral, barra sup
 
 - Os mesmos itens de menu levam a lugares diferentes conforme o perfil: **Início** volta à Home de quem entrou, **Relatórios** abre o relatório do setor para a chefia e o completo para a Gestão, e **Solicitações** abre o formulário para quem pede e a fila para quem analisa.
 - Cada bloco tem um atalho para a tela de detalhe: **Ver detalhes**, **Ver todos**, **Ver extrato completo**, **Dar ciência**, **Abrir fila de análise**, **Analisar exceção**.
+=======
+**Menu por perfil**
+
+| Item do menu | Servidor / Solicitante | Emissor | Chefia | Gestão |
+|---|:-:|:-:|:-:|:-:|
+| Início, Portarias, Solicitações | ✔ | ✔ | ✔ | ✔ |
+| Carga horária, Alertas, Extrato (dados pessoais) | ✔ | ✔ | ✔ | ✔ |
+| Nova portaria | | ✔ | | |
+| Relatórios | | | ✔ (só o setor) | ✔ |
+
+**Decisões de projeto**
+
+- Cada bloco tem um atalho para a tela de detalhe: **Ver detalhes** (Carga horária), **Ver todos** (Alertas), **Ver extrato completo** (Extrato), **Dar ciência** (Ciência) e a linha da portaria (detalhe da portaria).
+>>>>>>> d6bbe2420940a307e4281d6f372dfda392b37881
 - A cor só reforça o significado: urgente em vermelho e pendente em laranja, sempre acompanhados de ícone e texto.
 
 ## Demais telas do sistema
