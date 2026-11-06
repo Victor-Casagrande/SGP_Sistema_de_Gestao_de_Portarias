@@ -29,7 +29,7 @@ O protótipo foi construído de forma **evolutiva**: cada versão aproveitou a a
 |---|---|
 | Telas | 89, incluindo o diagrama do ciclo de vida, os logins e painéis de cada perfil e as variações de abas e opções (por exemplo, Gabinete ou CGP e tipo de prazo na nova portaria) |
 | Sobreposições (modais, menus, listas de seleção e avisos) | 60 |
-| Interações configuradas | 2.648 (931 condições por perfil e 808 gravações de variável) |
+| Interações configuradas | 2.648 (931 condições por perfil e 825 gravações de variável) |
 | Fluxos iniciais (pontos de partida) | 9 |
 | Seções na página | 12 |
 
@@ -47,14 +47,14 @@ O login grava a pessoa de teste em variáveis da coleção **Estado do protótip
 - a barra superior e o menu do usuário mostram o nome e os perfis de quem entrou;
 - os itens do menu lateral aparecem ou somem conforme os acessos (Solicitações, Nova portaria, Relatórios, Boletim de Serviço);
 - **Início**, **Relatórios**, **Solicitações** e o logotipo usam condições: cada perfil vai para a própria tela;
-- a tela Carga horária mostra “de 10 h” para docentes e “de 40 h” (jornada contratual) para o servidor TAE.
+- a tela Carga horária mostra “de 10 h” para docentes e “de 40 h” (jornada contratual) para os TAE (Fabrício e Thiago).
 
 | Variável | Para que serve |
 |---|---|
 | `RBAC/Usuário ativo`, `RBAC/Iniciais ativo`, `RBAC/Papel ativo` | Nome, iniciais e cargo na barra superior e no menu do usuário |
 | `RBAC/Perfil Docente`, `TAE`, `Emissor`, `Chefia`, `Gestão` | Qual perfil entrou; usadas nas condições de navegação |
 | `RBAC/Acesso Solicitações`, `Nova portaria`, `Relatórios`, `Boletim` | Mostram ou escondem os itens do menu lateral |
-| `RBAC/Limite docente` | Escolhe a versão docente ou TAE da tela Carga horária |
+| `RBAC/Limite docente` e `RBAC/Vínculo TAE` | Escolhem a versão docente (limite de 10 h) ou TAE (jornada de 40 h) da tela Carga horária |
 | `RBAC/Menu perfil 1` e `2` (com descrição) e `RBAC/Menu tem perfil 2` | Perfis acumulados no menu do usuário |
 | `Perfil selecionado` | Aba marcada no login |
 | `Sidebar/Portarias expandida` | Abre e fecha o submenu de Portarias |

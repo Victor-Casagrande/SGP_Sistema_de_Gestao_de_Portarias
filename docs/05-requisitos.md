@@ -13,7 +13,7 @@ Requisitos revisados com a gravação da entrevista com o Diretor-Geral do Campu
 | Descoberta | Entrevista estruturada | Entrevista gravada com o Product Owner em 30/03/2026, guiada pelo checklist de entrevista da disciplina |
 | Descoberta | Análise de documentos | Boletins de Serviço do IFC, para a regra de vigência (RN02) |
 | Validação | Validação com especialista | Dúvidas de regra de negócio confirmadas com o professor em 22/10/2026 ([decisões](01b-planejamento-detalhado.md#10-decisões-confirmadas-com-o-professor)) |
-| Especificação | Histórias de usuário | Backlog no formato Como/quero/para ([plano, seção 8](01b-planejamento-detalhado.md#7-product-backlog)) |
+| Especificação | Histórias de usuário | Backlog no formato Como/quero/para ([plano, seção 7](01b-planejamento-detalhado.md#7-product-backlog)) |
 | Especificação | BDD (Dado/Quando/Então) | Critérios de aceitação ([04](04-criterios-de-aceitacao.md)) |
 | Especificação | Tabelas de decisão | Regras condicionais de vigência e carga horária ([06](06-regras-de-negocio.md#tabelas-de-decisão)) |
 | Validação | Protótipo de alta fidelidade | Fluxos e regras visíveis na interface, navegáveis no Figma |

@@ -126,9 +126,9 @@ Siglas: **VC** Victor Casagrande · **LD** Lucas Duarte Lopes · **WT** Willigha
 | Código | Pacote de trabalho | Descrição | Resp. | Estimativa | Critério de aceitação | Depende de |
 |---|---|---|---|---|---|---|
 | 3.2.1 | Paleta de cores e variáveis | Coleção de variáveis e 16 estilos de cor ligados a ela. | LD | 8 h | Estilos de cor visíveis no painel Assets | — |
-| 3.2.2 | Estilos de texto, efeito e grade | 11 estilos de texto, 4 de efeito e 3 de grade. | LD | 8 h | Telas sem valores soltos de fonte e sombra | 3.2.1 |
+| 3.2.2 | Estilos de texto, efeito e grade | 11 estilos de texto, 4 de efeito, 3 de grade e 5 de animação. | LD | 8 h | Telas sem valores soltos de fonte e sombra | 3.2.1 |
 | 3.2.3 | Biblioteca de ícones | 34 ícones em componentes. | WT | 8 h | Ícones usados apenas por instância | — |
-| 3.2.4 | Componentes e variantes | Botão, Status, Campo de texto, Segmento, Card, Item de menu, Menu lateral, Barra superior e Cabeçalho, com propriedades e estados interativos. | LD | 24 h | Componentes usados em todas as telas | 3.2.1, 3.2.2, 3.2.3 |
+| 3.2.4 | Componentes e variantes | 13 componentes: Botão, Status, Campo de texto, Segmento, Seletor de perfil, Card de funcionalidade, Item de menu, Subitem de menu, Grupo de navegação — Portarias, Menu lateral, Menu lateral RBAC, Barra superior e Cabeçalho da landing, com propriedades e estados interativos. | LD | 24 h | Componentes usados em todas as telas | 3.2.1, 3.2.2, 3.2.3 |
 
 **3.3 INTERFACES**
 
@@ -138,7 +138,7 @@ Siglas: **VC** Victor Casagrande · **LD** Lucas Duarte Lopes · **WT** Willigha
 | 3.3.2 | Interface de recuperação de senha | Quatro telas: pedir link, link enviado, nova senha, senha alterada. | WT | 8 h | Critérios CA-R1 a CA-R6 | 3.2.4 |
 | 3.3.3 | Interface Home com menu | Painel inicial com menu lateral por perfil, barra superior e pendências. | LD | 12 h | Critérios CA-H1 a CA-H6 | 3.2.4 |
 | 3.3.4 | Telas do servidor | Carga horária, alertas, ciência e extrato. | WT | 16 h | Dados coerentes com a Home | 3.3.3 |
-| 3.3.5 | Telas do solicitante e do emissor | Solicitação, fila, busca, detalhe, nova portaria em 6 etapas, pedido de exceção de carga horária, alterar, prorrogar, retificar, revogar e Boletim de Serviço. | LD | 40 h | Critérios CA-01 a CA-15 e CA-23 a CA-24 | 3.3.3 |
+| 3.3.5 | Telas do solicitante e do emissor | Solicitação, fila, busca, detalhe, nova portaria em 6 etapas, pedido de exceção de carga horária, alterar, prorrogar, retificar, revogar e Boletim de Serviço. | LD | 40 h | Critérios CA-01 a CA-15 e CA-23 a CA-25 | 3.3.3 |
 | 3.3.6 | Telas de gestão, chefia e consulta pública | Relatórios completos, aprovação de exceção de carga horária, relatórios do setor e consulta sem login. | VC | 16 h | Critérios CA-19, CA-21, CA-22 e CA-26 | 3.3.3 |
 
 **3.4 PROTÓTIPO NAVEGÁVEL**

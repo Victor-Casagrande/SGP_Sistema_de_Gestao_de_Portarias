@@ -9,7 +9,7 @@ O design system está na página **Design System** do Figma. As telas usam só o
 | Recurso | Quantidade | Onde ver no Figma |
 |---|---|---|
 | Variáveis de design (coleção “SGP Tokens”) | 28 | Painel **Local variables** |
-| Variáveis de estado do protótipo (coleção “Estado do protótipo”) | 20 | Painel **Local variables**; uso descrito em [08](08-prototipo-navegavel.md#como-o-protótipo-sabe-quem-entrou) |
+| Variáveis de estado do protótipo (coleção “Estado do protótipo”) | 21 | Painel **Local variables**; uso descrito em [08](08-prototipo-navegavel.md#como-o-protótipo-sabe-quem-entrou) |
 | Estilos de cor | 16 | **Assets › Estilos de cor**, ligados às variáveis |
 | Estilos de texto | 11 | **Assets › Estilos de texto** |
 | Estilos de efeito (sombras) | 4 | **Assets › Estilos de efeito** |

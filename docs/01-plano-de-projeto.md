@@ -23,7 +23,7 @@ O detalhamento do planejamento (ciclo de vida, papéis, cronograma, backlog, ris
 
 - Sistema web alinhado às regras de negócio do IFC (emissores, vigência, limites de carga horária, LGPD).
 - Design personalizado no ambiente do IFC: identidade institucional, imagens, fontes, ícones e ilustrações.
-- Uso dos recursos do Figma: componentes, sobreposições, paleta de cores e estilos.
+- Uso dos recursos do Figma: componentes, sobreposições, paleta de cores e estilos (cor, texto, efeito, grade e animação).
 - Protótipo navegável em botões, menus e sobreposições.
 - Requisitos levantados em Engenharia de Software I; acesso ao LDAP/AD e ao SIPAC considerado garantido.
 
@@ -83,7 +83,7 @@ A classificação completa das partes interessadas está no [planejamento detalh
 - Os 9 artefatos estão no repositório e o professor tem edição no Figma antes de 08/11/2026, 23h59.
 - O protótipo cobre os 5 perfis, sem links quebrados, com as três interfaces obrigatórias.
 - Todo requisito funcional tem tela e critério de aceitação; todo requisito não funcional é mensurável.
-- O Figma usa componentes, sobreposições, paleta e estilos (cor, texto, efeito e grade).
+- O Figma usa componentes, sobreposições, paleta e estilos (cor, texto, efeito, grade e animação).
 
 ### Hipóteses
 

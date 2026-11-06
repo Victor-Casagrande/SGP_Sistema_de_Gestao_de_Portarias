@@ -37,7 +37,7 @@ As três interfaces exigidas no trabalho estão na página **Telas (protótipo)*
 |---|---|---|
 | Servidor | Fabrício · Servidor TAE, jornada contratual de 40 h | Painel pessoal sem limite docente |
 | Docente | Maria · Docente EBTT, também Solicitante (presidente da Comissão de TCC) | Painel pessoal com limite de 10 h e Solicitações |
-| Emissor | Thiago · Emissor da CGP | Fila de solicitações, Nova portaria e Boletim de Serviço |
+| Emissor | Thiago · TAE da CGP, Emissor | Fila de solicitações, Nova portaria e Boletim de Serviço |
 | Chefe de Setor | Julia · Coordenação de Ciência da Computação | Relatórios só do próprio setor |
 | Diretor-Geral | Willian · Gestão | Relatórios completos, exceções e assinaturas |
 

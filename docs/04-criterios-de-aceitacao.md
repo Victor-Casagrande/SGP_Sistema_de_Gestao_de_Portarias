@@ -16,7 +16,7 @@ Os requisitos e as regras citados estão em [05 – Requisitos](05-requisitos.md
 | CP-02 | O professor tem permissão de **edição** no arquivo do Figma e acesso ao repositório antes de 08/11/2026, 23h59 | Confirmação de acesso pelo professor ou teste com o e-mail tiago.goncalves@ifc.edu.br | Professor |
 | CP-03 | As três interfaces obrigatórias existem e são navegáveis: login com usuário e senha, recuperação de senha e Home com menu | Fluxos 1, 3b e 4 do protótipo | Professor |
 | CP-04 | O protótipo é navegável em botões, menus e sobreposições, sem links quebrados | Checklist de teste de navegação ([08](08-prototipo-navegavel.md#checklist-de-teste-de-navegação-sprint-3)) com os 9 fluxos aprovados | Scrum Master |
-| CP-05 | O Figma usa componentes, sobreposições, paleta de cores e estilos de texto, cor, efeito e grade | Painel Assets e página Design System | Professor |
+| CP-05 | O Figma usa componentes, sobreposições, paleta de cores e estilos de texto, cor, efeito, grade e animação | Painel Assets e página Design System | Professor |
 | CP-06 | Todo requisito funcional tem ao menos uma tela e um critério de aceitação | Matriz de rastreabilidade ([05](05-requisitos.md#matriz-de-rastreabilidade)) | Analista |
 | CP-07 | Todo requisito não funcional é mensurável | Coluna “Métrica de aceitação” ([05](05-requisitos.md#requisitos-não-funcionais-rnf)) | Analista |
 | CP-08 | Toda regra de negócio tem fonte na entrevista com o Product Owner ou em norma do IFC | Coluna “Fonte” ([06](06-regras-de-negocio.md)) | Representante do PO |

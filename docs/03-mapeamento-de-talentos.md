@@ -66,7 +66,7 @@ Os três juntos fazem a entrevista, o mapeamento de talentos, os protótipos de 
 
 - quem tem nível 3 ou 4 numa competência fica como **responsável (R)** pelos pacotes que mais dependem dela;
 - quem tem nível 1 ou 2 participa como **consultado (C)** nesses pacotes, para aprender com o responsável;
-- o teste de navegação é feito por quem **não desenhou** as telas (Victor), para enxergar falhas que o autor não vê;
+- o teste de navegação é feito por quem **não desenhou a maior parte** das telas (Victor), para enxergar falhas que o autor não vê;
 - nenhum pacote crítico (login, recuperação de senha, Home, protótipo, entrega) fica sem um segundo integrante consultado.
 
 ## 4. Matriz RACI
@@ -76,7 +76,7 @@ Os três juntos fazem a entrevista, o mapeamento de talentos, os protótipos de 
 | Entregável | Victor | Lucas | Willighan | Product Owner |
 |---|:-:|:-:|:-:|:-:|
 | Termo de Abertura do Projeto | C | C | R/A | C |
-| Plano de projeto | C | C | R/A | I |
+| Planejamento detalhado (01b) | C | C | R/A | I |
 | EAP e dicionário | C | C | R/A | — |
 | Mapeamento de talentos | R | R | R/A | — |
 | Matriz RACI | C | C | R/A | — |

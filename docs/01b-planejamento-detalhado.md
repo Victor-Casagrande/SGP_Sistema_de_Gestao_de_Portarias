@@ -60,7 +60,7 @@ O escopo completo está decomposto na [EAP](02-eap.md); o que não está nela n�
 | Interfaces obrigatórias: login, recuperação de senha e Home com menu | Página **Telas (protótipo)** · `docs/07` |
 | Protótipo funcional e navegável de todos os perfis | Página **Telas (protótipo)** · `docs/08` |
 | Landing page | Página **Telas (protótipo)** · `docs/09` |
-| Design system: paleta, estilos de texto, cor, efeito e grade, componentes | Página **Design System** do Figma · `docs/10` |
+| Design system: paleta, estilos de texto, cor, efeito, grade e animação, componentes | Página **Design System** do Figma · `docs/10` |
 
 ### Fora do escopo
 
@@ -216,6 +216,7 @@ Prioridade pelo método MoSCoW (**M**ust, **S**hould, **C**ould, **W**on't). Est
 | US19 | Como **equipe**, queremos um design system com paleta, estilos e componentes, para manter a consistência | — | M | 8 | 1 | Pronto |
 | US20 | Como **equipe**, queremos validar o protótipo com o professor e com o Gabinete/CGP | — | S | 3 | 2 | A fazer |
 | US21 | Como **equipe**, queremos testar todos os fluxos do protótipo com alguém que não os desenhou | — | M | 3 | 3 | A fazer |
+| US22 | *Retirada do backlog* | — | — | — | — | Retirada |
 | US23 | Como **equipe**, queremos campos de seleção (selects) interativos no protótipo | — | S | 3 | 1 | Pronto |
 | US24 | Como **emissor**, quero importar as portarias de 2010 a 2016 | RNF07 | W | 13 | — | Fase futura |
 | US25 | Como **visitante no celular**, quero consultar portarias numa tela adaptada | RF11 | W | 8 | — | Fase futura |
@@ -261,7 +262,7 @@ As dúvidas de regra de negócio e de entrega foram levadas ao professor em **22
 | D7 | Ata de kickoff | **Não será exigida** | Kickoff retirado do escopo |
 | D8 | EAP | **Sem datas**; o quadro do Miro era só exemplo, sem preferência de ferramenta | [02 – EAP](02-eap.md) |
 | D9 | Estilos de animação no Figma | **Exigidos**, além de cor, texto, efeito e grade | [10 – Design system](10-design-system.md#estilos-de-animação) |
-| D10 | Repositório | O repositório de organização continua privado; a entrega será num **repositório novo e público** | README |
+| D10 | Repositório | A orientação era entregar num **repositório público**. A equipe usou o próprio repositório de organização (`Gestor_Portaria_Teste`), tornado público para a entrega | README |
 
 ## 11. Comunicação e ferramentas
 

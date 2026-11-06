@@ -32,9 +32,9 @@ Cada regra acima reúne regras menores. Para que cada uma possa ser verificada e
 | RN02.2 | o ato não exige DOU e o texto não indica data | a vigência começa na publicação no Boletim de Serviço | — |
 | RN02.3 | o texto indica uma data de vigência | vale a data indicada | data retroativa só em caráter excepcional e expressa no ato |
 | RN03.1 | a portaria está vigente e um membro precisa ser trocado | gera documento acessório (ex.: 112-A/2026) com datas de saída e de entrada | objeto e validade não mudam |
-| RN03.4 | a portaria está vigente e o trabalho continua | prorroga por alteração do prazo, com documento acessório (ex.: 112-B/2026) | objeto não muda; a versão anterior fica no histórico |
 | RN03.2 | há erro material (nome, SIAPE, digitação) | gera retificação | conteúdo e prazo não mudam |
 | RN03.3 | a portaria precisa deixar de valer | cria nova portaria com cláusula revogatória | a portaria anterior não é apagada |
+| RN03.4 | a portaria está vigente e o trabalho continua | prorroga por alteração do prazo, com documento acessório (ex.: 112-B/2026) | objeto não muda; a versão anterior fica no histórico |
 | RN04.1 | a soma das horas em portarias vigentes ultrapassaria a jornada contratual | bloqueia a inclusão com alerta crítico | — |
 | RN04.2 | o servidor é docente e a soma ultrapassaria 10 h semanais | bloqueia a inclusão com alerta crítico | o Emissor pode pedir exceção (RN04.4) |
 | RN04.3 | a soma atinge 80% ou mais do limite | mostra o status “Perto do limite” | não bloqueia |
@@ -45,8 +45,8 @@ Cada regra acima reúne regras menores. Para que cada uma possa ser verificada e
 | RN06.2 | o relatório compara servidores | exige perfil Gestão ou Chefia | — |
 | RN07.1 | o membro é externo (aluno, comunidade, empresa) | é cadastrado sem SIAPE e sem carga horária institucional | não entra no cálculo da RN04 |
 | RN08.1 | faltam de 7 a 5 dias para o vencimento de uma portaria com prazo | avisa presidente, chefia e Gabinete | o aviso continua até a prorrogação ou o vencimento |
-| RN08.3 | a portaria vai vencer e o trabalho continua | a prorrogação é feita antes do vencimento (RN03.4) | não pode haver vácuo entre o fim do prazo e a prorrogação |
 | RN08.2 | o prazo termina sem prorrogação | a portaria passa a “Vencida” | — |
+| RN08.3 | a portaria vai vencer e o trabalho continua | a prorrogação é feita antes do vencimento (RN03.4) | não pode haver vácuo entre o fim do prazo e a prorrogação |
 | RN09.1 | a portaria foi assinada | nenhuma exclusão é permitida | versões, alterações e revogadas ficam guardadas |
 
 ## Tabelas de decisão
@@ -143,7 +143,7 @@ O Gabinete e a CGP elaboram; quem **assina** é o **Diretor-Geral**, no SIPAC (c
 |---|---|
 | Maria · Docente EBTT | Servidor e Solicitante (presidente da Comissão de TCC) |
 | Fabrício · Servidor TAE | Servidor |
-| Thiago · CGP | Emissor e Servidor |
+| Thiago · TAE da CGP | Emissor e Servidor |
 | Julia · Coordenação de Ciência da Computação | Chefia de setor e Servidor |
 | Willian · Diretor-Geral | Gestão e Servidor |
 
