@@ -262,7 +262,7 @@ As dúvidas de regra de negócio e de entrega foram levadas ao professor em **22
 | D7 | Ata de kickoff | **Não será exigida** | Kickoff retirado do escopo |
 | D8 | EAP | **Sem datas**; o quadro do Miro era só exemplo, sem preferência de ferramenta | [02 – EAP](02-eap.md) |
 | D9 | Estilos de animação no Figma | **Exigidos**, além de cor, texto, efeito e grade | [10 – Design system](10-design-system.md#estilos-de-animação) |
-| D10 | Repositório | A orientação era entregar num **repositório público**. A equipe usou o próprio repositório de organização (`Gestor_Portaria_Teste`), tornado público para a entrega | README |
+| D10 | Repositório | A orientação era entregar num **repositório público**. A equipe usou o próprio repositório de organização, renomeado para `SGP_Sistema_de_Gestao_de_Portarias` e tornado público para a entrega | README |
 
 ## 11. Comunicação e ferramentas
 
